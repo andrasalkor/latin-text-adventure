@@ -5,7 +5,7 @@ The up and coming Latin text-adventure game's official repository. Currently in 
 
 A small Godot project for a text-adventure game, designed entirely in Latin. It is still in its early stages, with most of the features' skeletons, so to speak, implemented, but not with full systems in place yet. The goal is to make a good, comfortable command parser for Latin and a compelling sci-fi story of about 1-2 hours in playtime length.
 
-If you are interested in designing text-adventure games in Godot, I recommend [jmbiv's YouTube series][https://www.youtube.com/playlist?list=PLpwc3ughKbZfkSPko3azFD4dd4IHSiQeE], which is what this project used as its basis as well.
+If you are interested in designing text-adventure games in Godot, I recommend [jmbiv's YouTube series](https://www.youtube.com/playlist?list=PLpwc3ughKbZfkSPko3azFD4dd4IHSiQeE), which is what this project used as its basis as well.
 
 ## Why is this?
 
