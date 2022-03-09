@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://input/InputResponse.gd" type="Script" id=1]
+[ext_resource path="res://input/Response.tscn" type="PackedScene" id=2]
+[ext_resource path="res://input/InputHistory.tscn" type="PackedScene" id=3]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 1, 1, 1, 0.0627451 )
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+expand_margin_top = 5.0
+expand_margin_bottom = 25.0
+
+[node name="InputResponse" type="MarginContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 5
+custom_constants/margin_top = 5
+custom_constants/margin_left = 5
+custom_constants/margin_bottom = 5
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Zebra" type="Panel" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 1019.0
+margin_bottom = 595.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Rows" type="VBoxContainer" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 1019.0
+margin_bottom = 595.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InputHistory" parent="Rows" instance=ExtResource( 3 )]
+margin_right = 1014.0
+
+[node name="Response" parent="Rows" instance=ExtResource( 2 )]
+margin_right = 1014.0
+margin_bottom = 70.0

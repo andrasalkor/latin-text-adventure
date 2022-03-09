@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://items/Item.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+item_name = "clauis"
+name_inflections = {
+"abl": "claue",
+"acc": "clauem",
+"dat": "claui",
+"gen": "clauis",
+"nom": "clauis",
+"voc": "clauis"
+}
+item_type = 0
+description = "Rei descriptio."

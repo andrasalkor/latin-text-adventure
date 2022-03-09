@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://npcs/NPC.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+npc_name = "Caupo"
+name_inflections = {
+"abl": "caupone",
+"acc": "cauponem",
+"dat": "cauponi",
+"gen": "cauponis",
+"nom": "caupo",
+"voc": "caupo"
+}
+initial_dialogue = "Salue, peregrine! Si ludum uincere cupis, redi in tugurium et gladium demitte."
+post_quest_dialogue = ""

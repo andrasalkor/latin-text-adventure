@@ -1,0 +1,36 @@
+#	var first_word = words[0].to_lower()
+#	var second_word = ""
+#	if words.size() > 1:
+#		second_word = words[1].to_lower()
+#
+#	var third_word = ""
+#	if words.size() > 2:
+#		third_word = words[2].to_lower()
+#
+#	match first_word:
+#		"in":
+#			return go(second_word)
+#		"ad":
+#			return go(second_word)
+#		"sume":
+#			return take(second_word)
+#		"demitte":
+#			return drop(second_word)
+#		"depone":
+#			return drop(second_word)
+#		"inuentarium":
+#			return inventory()
+#		"utere":
+#			return use(second_word)
+#		"alloquere":
+#			return talk(second_word)
+#		"all":
+#			return talk(second_word)
+#		"da":
+#			return give(second_word, third_word)
+#		"auxilium":
+#			return help()
+#		"aux":
+#			return help()
+#		_:
+#			return Types.wrap_system_text("Tale imperatum deest.")

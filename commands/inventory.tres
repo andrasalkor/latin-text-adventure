@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://commands/Command.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+has_dobj = false
+has_iobj = false
+has_inst = false
+has_prep = false
+on_npc = false
+on_pc = false
+on_item = false
+on_loc = false
+synonyms = [  ]
+prepositions = [  ]
+scope = "inv"
